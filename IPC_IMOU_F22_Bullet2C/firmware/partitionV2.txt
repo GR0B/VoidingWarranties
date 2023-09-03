@@ -1,0 +1,9 @@
+# Version=3
+#	name                cs         offset              size         mask_flags     fs_flags      fs_type         mount_cmd												backup_off
+  U-Boot,             0, 0x0000000000000000,	0x0000000000030000, 		RW,       	   ,          	 ,			     ,												0xffffffffffffffff,
+  hwid,               0, 0x0000000000030000, 	0x0000000000010000, 		RW,            ,          	 ,               ,												0xffffffffffffffff,
+  partition,          0, 0x0000000000040000, 	0x0000000000010000, 		RW,			   R,            cramfs,         ,												0xffffffffffffffff,
+  Kernel,             0, 0x0000000000050000,	0x0000000000150000, 		RW,            ,          	 ,               ,												0xffffffffffffffff,
+  romfs,              0, 0x00000000001A0000,	0x0000000000610000, 		RW,            R,            squashfs,       ,												0xffffffffffffffff,
+  config,             0, 0x00000000007B0000,	0x0000000000030000,		    RW,            RW,           jffs2,          "mnt_jffs2 /dev/mtdblock5 /mnt/mtd jffs2",		0xffffffffffffffff,
+  backupApp,          0, 0x00000000007E0000,	0x0000000000020000,		    RW,            RW,           jffs2,          "mnt_jffs2 /dev/mtdblock6 /mnt/backupApp jffs2",		0xffffffffffffffff,  
