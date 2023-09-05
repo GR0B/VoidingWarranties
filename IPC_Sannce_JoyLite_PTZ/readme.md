@@ -327,20 +327,14 @@ vendor               = ysx
 pass                 = Ysx87442
 
 
-# found a private and public key, looks like a 1024bit RSA
+# found a private and public key, looks like a 1024bit RSA (I did redact some of the private key)
 
 /system_rw/SNIP39 # cat pri.key
 -----BEGIN PRIVATE KEY-----
 MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALyPtduGs44RbIrd
 JznKqWzUAZUA0XlrB/UzN3fVsBvXgJ/msbgU4B2/orN4ijnshA7HBG4Kna6JXCZt
 qZ6h32z3ypsU8CzB/lTCZ9FcHJyuA82Bfh4dPRlZPPhCAASfWu/MJ/t/I8mwj1cx
-vMby1aetlzZxfIJ9IchQsyMuCh+jAgMBAAECgYEAnSU/sFaQacQHq6snt7g4fuQo
-9V8bNI+IsEcg4RQLkwiEv75pOjrblK9TDzNUL3X3kME35eWfCAid7cDS7cuGAUIr
-ZOubKhRWXMIn0fgyS4Ykk1Tpn/zwBQc72HzMRw6fyErxzE2qWUN4kDu39s1EjhBV
-LnQU/23iRgOthXEIW2ECQQDguDmZD8/zDzgVQ/i3DVl7vAoXpAnn7uWjoNlJIneh
-TNEobY33pe2XMDpK5f7qJn9RatDjxMcPAjm6ukCvPigZAkEA1s8A2ZcCyk0VTkeg
-gxFJ4zVfpXLTyT1bUaOoveEffPfvn+JnKEZcMskqIwLUC75DO1IFYxrsPzKKSuyv
-BNutGwJABDCrMkVvNTMFcrAPxSoEjyAUeBhg7ugvc/ud0ZVI8cMC62QPj5ySb41A
+####Redacted####
 qQDc3fTVzujU+EpFA+ygsvCiICJikQJBAKibSO6B4tXJ1WxhOnNGcbme3lluHSB7
 QZ9+F2gbOW0M65CS1Ce/uoS+c42RncEt8XWxdrsImeEtGXGf/+yPRXsCQD1fNdwj
 8OC8ETTP/ni6EF5359tvpNpLdnGqkLI6TtElwv2yELoqzjvocKkABkhqSw09wuej
